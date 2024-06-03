@@ -7,7 +7,7 @@ import hangman_art
 chosen_word = random.choice(hangman_words.word_list)
 word_length = len(chosen_word)
 
-lives = 9
+lives = 6
 
 #Import the logo from hangman_art.py and print it at the start of the game.
 print("We welcome you to this game of Hangman!")
